@@ -31,19 +31,23 @@ html {
 }
 
 .App-header {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 4s steps(45) 1s 1 normal both,
+    blinkTextCursor 500ms steps(45) infinite normal;
   
 }
 
 /* The typing effect */
 @keyframes typewriter {
   from { width: 0; }
-  to { width: 24em; }
+  to { width: 19.75em; }
 }
 
 /* The typewriter cursor effect */
 @keyframes blinkTextCursor {
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+.navLink {
+  padding-right: 20px;
 }
