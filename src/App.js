@@ -21,6 +21,8 @@ class App extends Component {
                   <Route component={Wrong} />
                 </Switch>
             </BrowserRouter>
+            <About />
+            <Work />
         </div>
     );
   }

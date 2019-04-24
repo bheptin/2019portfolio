@@ -9,7 +9,6 @@ class Navigation extends Component {
                 <NavLink className="navLink" to="/">Home</NavLink>
                 <NavLink className="navLink" to="/about">About</NavLink>
                 <NavLink className="navLink" to="/work">Work</NavLink>
-
             </div>
         ); 
     }
