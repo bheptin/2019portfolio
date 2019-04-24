@@ -3,7 +3,7 @@ html {
   min-height: 100%;
   overflow: hidden;
 }
-.App {
+.App, .About, .Work {
   text-align: center;
   height: calc(100vh - 8em);
   padding: 4em;
