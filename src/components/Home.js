@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import About from './About.js';
-import Work from './Work.js';
 
 class Home extends Component {
     render() {
@@ -15,8 +13,6 @@ class Home extends Component {
               Brian Heptinstall... a brief history
             </p>
         </header>
-          <About />
-          <Work />
           </div>
             
         )
