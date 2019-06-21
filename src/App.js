@@ -11,7 +11,7 @@ import Navigation from './components/Navigation.js';
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className="main-body">
             <BrowserRouter>
               <Navigation />
                 <Switch>

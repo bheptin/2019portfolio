@@ -5,7 +5,21 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit; 
+    box-sizing: inherit;
+}
+.App, 
+.About,
+.Work {
+  background-color: #0d0000;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+}
+
+.Navbar-main {
+  background-color: #575757;
+}
+
+a.navLink {
+  color: rgb(206, 195, 195);
 }
 
 html {
