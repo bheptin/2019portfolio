@@ -31,7 +31,7 @@ html {
   padding: 0px 10px;
   text-align: center;
   animation-name: navPull;
-  animation-duration: 3s;  
+  animation-duration: 1s;  
   animation-delay: 5s;
   animation-fill-mode: both;
 }
@@ -56,4 +56,32 @@ a:hover {
   font-size: x-large;
    padding: 10px;
    text-decoration: none;
+}
+
+ .info-phone, .info-email, .info-resume {
+  animation-name: showInfo;
+  animation-duration: 1.7s;  
+  animation-delay: 6s;
+  animation-fill-mode: both;
+  font-size: large;
+  margin-bottom: 22px;
+}
+
+.info-phone {
+  margin-top: 250px;
+}
+
+.info-resume {
+  margin-top: 28px;
+}
+
+@keyframes showInfo {
+  from {
+        visibility: hidden;
+        opacity: 0;
+       }
+  to {
+    transition: visibility 0s, opacity 0.5s linear;
+    color: gray;
+     }
 }

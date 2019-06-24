@@ -39,8 +39,17 @@ class App extends Component {
             <li>
               <Link to="/work">Work</Link>
             </li>
+            <li className="info-phone">
+            <i className="fa fa-mobile fa-3x"></i>
+            </li>
+            <li className="info-email">
+            <i class="fa fa-envelope-square fa-2x"></i>
+            </li>
+            <li className="info-resume">
+            <i className="fa fa-file fa-2x"></i>
+            </li>
           </ul>
-
+          
           {routes.map((route, index) => (
             // You can render a <Route> in as many places
             // as you want in your app. It will render along
