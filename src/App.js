@@ -39,14 +39,11 @@ class App extends Component {
             <li>
               <Link to="/work">Work</Link>
             </li>
-            <li className="info-phone">
-            <i className="fa fa-mobile fa-3x"></i>
-            </li>
             <li className="info-email">
-            <i class="fa fa-envelope-square fa-2x"></i>
+            <a href="mailto: bheptin@gmail.com?Subject=I%20have%20an%20amazing%20job%20offer%20for%20you!"><i class="fa fa-envelope-square fa-2x"></i></a>
             </li>
             <li className="info-resume">
-            <i className="fa fa-file fa-2x"></i>
+            <a href="https://drive.google.com/open?id=1sqSFo-XKRkCfgfApz5s5DpcPM7-Mch-bp-9nu-zuEl8"><i className="fa fa-file fa-2x"></i></a>
             </li>
           </ul>
           

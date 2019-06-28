@@ -58,7 +58,7 @@ a:hover {
    text-decoration: none;
 }
 
- .info-phone, .info-email, .info-resume {
+ .info-email, .info-resume {
   animation-name: showInfo;
   animation-duration: 1.7s;  
   animation-delay: 6s;
@@ -67,12 +67,12 @@ a:hover {
   margin-bottom: 22px;
 }
 
-.info-phone {
-  margin-top: 250px;
+.info-email {
+  margin-top: 50px;
 }
 
 .info-resume {
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
 @keyframes showInfo {
