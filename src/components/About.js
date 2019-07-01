@@ -26,7 +26,7 @@ class About extends Component {
                        
                        <img className="happyBoy-image" src={happyBoy} alt="happyBaby" />
                     <p className="about-footer">Check out my work here and feel free to connect with me on 
-                    <a className="aboutLink" href="https://www.linkedin.com/in/bheptin/">LinkedIn</a>. 
+                    <a className="aboutLink" href="https://www.linkedin.com/in/bheptin/"> LinkedIn</a>. 
                     I’m also on <a className="aboutLink" href="https://twitter.com/bheptin">Twitter</a>, but I’m not much of a Tweeter.</p>
                         
 
