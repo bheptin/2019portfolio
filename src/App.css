@@ -29,10 +29,20 @@ body {
 /* Left navbar */
 .nav-main {
   display: flex;
-  background-color: #353738;
+  background-color: #2A5468;
+  
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  cursor: pointer; 
+  color: rgba(255,255,255,0.8);
+  font-size: 24px;
 }
 
 .nav-box {
+  display: none;
   padding: 0px 10px;
   text-align: center;
   animation-name: navPull;

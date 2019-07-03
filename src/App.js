@@ -28,6 +28,9 @@ class App extends Component {
     return (
       <Router>
       <div className="nav-main">
+      <span className="navbar-toggle" id="js-navbar-toggle">
+            <i className="fa fa-bars"></i>
+        </span>
         <div className="nav-box">
           <ul className="sideNavList">
             <li>
