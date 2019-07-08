@@ -2,6 +2,23 @@
     overflow: auto;
 }
 
-img {
-    height: 200px;
+.Work p {
+    display: inline-block;
+}
+
+.ContentAppsPic {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+.ProtractorSamplePic {
+    width: 40%;
+    float: right;
+}
+
+.JenkinsSamplePic {
+    width: 40%;
+    height: 350px;
+    float: left;
 }

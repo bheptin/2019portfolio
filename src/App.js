@@ -71,7 +71,7 @@ class App extends Component {
                 />
               ))}
            
-           <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+           <a onClick={ this.showSettings } className="menu-item--small" href="#">Settings</a>
             </Menu>
             <div style={{ flex: 1 }}>
               {routes.map((route, index) => (
