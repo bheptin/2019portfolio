@@ -3,9 +3,9 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import '../css/work.css';
 import contentAppsMain from '../images/ContentAppsMain.png';
-import diceGame from '../images/Dice-Game.png';
+import selenium from '../images/Selenium.png';
 import giphy from '../images/Giphy.png';
-import tetris from '../images/Tetris.png';
+import netcashLogin from '../images/NetCashLogin.png';
 import tryAngle from '../images/tryAngle.png';
 import jenkins from '../images/Jenkins.png';
 import protractor from '../images/ProtractorSample.png';
@@ -18,7 +18,7 @@ class Work extends Component {
                 <Tabs>
                     <TabList>
                         <Tab>HealthGrades/Influence Health</Tab>
-                        <Tab>Title 2</Tab>
+                        <Tab>BBVA Compass</Tab>
                         <Tab>Title 3</Tab>
                         <Tab>Title 4</Tab>
                     </TabList>
@@ -41,13 +41,14 @@ class Work extends Component {
                         <img className="JenkinsSamplePic" src={jenkins} alt="Jenkins screenshot" />
                     </TabPanel>
                     <TabPanel>
-                        <h2>Any content 2</h2>
-                        <img className="giphyPic" src={contentAppsMain} alt="dice game screenshot" />
+                        <img className="NetCashLoginPic" src={netcashLogin} alt="NetCash Login screenshot" />
                         <p>ofnposvpeounrpvenpronvorpnvorvnpeonvpoenvpeonvpoenvpoenvoprvenpornceoprv
                             reovenroivenrinveorinveovnoinovneoirowiecowivnowevnwr
                             vojrnovnwowinrovivnorinovirnvoinoinoinoniuniunononoinounounouiuboun
                             ibiuiuhiuiuiiuiniuiubiybutyrtrdtytuyggvytvuyvuyvvuytfuycutrcuytuy
                         </p>
+                        <img className="SeleniumPic" src={selenium} alt="Selenium screenshot" />
+
                     </TabPanel>
                     <TabPanel>
                         <h2>Any content 3</h2>
