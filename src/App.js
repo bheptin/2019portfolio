@@ -25,30 +25,43 @@ const routes = [
 
 
 class App extends Component {
-  showSettings (event) {
-    event.preventDefault();
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
   }
+
+  handleStateChange (state) {
+    this.setState({menuOpen: state.isOpen})  
+  }
+
+  closeMenu () {
+    this.setState({menuOpen: false})
+  }
+
   render() {
     
     return (
         <Router>
-          <Menu>
+          <Menu isOpen={this.state.menuOpen}
+          onStateChange={(state) => this.handleStateChange(state)}>
             <ul>
-              <li>
+              <li onClick={() => this.closeMenu()}>
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li onClick={() => this.closeMenu()}>
                 <Link to="/about">About</Link>
               </li>
-              <li>
+              <li onClick={() => this.closeMenu()}>
                 <Link to="/work">Work</Link>
               </li>
-              <li className="info-email">
+              <li onClick={() => this.closeMenu()} className="info-email">
                 <a href="mailto: bheptin@gmail.com?Subject=I%20have%20an%20amazing%20job%20offer%20for%20you!">
                   <i className="fa fa-envelope-square fa-2x"></i>
                 </a>
               </li>
-              <li className="info-resume">
+              <li onClick={() => this.closeMenu()} className="info-resume">
                 <a href="https://drive.google.com/open?id=1sqSFo-XKRkCfgfApz5s5DpcPM7-Mch-bp-9nu-zuEl8">
                   <i className="fa fa-file fa-2x"></i>
                 </a>

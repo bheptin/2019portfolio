@@ -19,7 +19,7 @@ class Work extends Component {
                     <TabList>
                         <Tab>HealthGrades/Influence Health</Tab>
                         <Tab>BBVA Compass</Tab>
-                        <Tab>Title 3</Tab>
+                        <Tab>Iron Yard Group Project</Tab>
                         <Tab>Title 4</Tab>
                     </TabList>
 
@@ -51,15 +51,14 @@ class Work extends Component {
 
                     </TabPanel>
                     <TabPanel>
-                        <h2>Any content 3</h2>
-                        <img className="tetrisPic" src={contentAppsMain} alt="dice game screenshot" />
+                        <img className="TryAnglePic" src={tryAngle} alt="TryAngle screenshot" />
                         <p>ofnposvpeounrpvenpronvorpnvorvnpeonvpoenvpeonvpoenvpoenvoprvenpornceoprv
                             reovenroivenrinveorinveovnoinovneoirowiecowiv
                         </p>
                     </TabPanel>
                     <TabPanel>
                         <h2>Any content 4</h2>
-                        <img className="tryAnglePic" src={contentAppsMain} alt="dice game screenshot" />
+                        <img className="tryAnglePic" src={tryAngle} alt="dice game screenshot" />
                         <p>ofnposvpeounrpvenpronvorpnvorvnpeonvpoenvpeonvpoenvpoenvoprvenpornceoprv
                             reovenroivenrinveorinveovnoinovneoirowiecowivnowevnwr
                             vojrnovnwowinrovivnorinovirnvoinoinoinoniuniunononoinounounouiuboun

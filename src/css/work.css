@@ -4,16 +4,20 @@
 
 .Work p {
     display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: .7px;
 }
 
 .ContentAppsPic {
     width: 50%;
-    height: 350px;
+    height: 500px;
     float: left;
 }
 
 .ProtractorSamplePic {
-    width: 40%;
+    width: 50%;
     float: right;
 }
 
