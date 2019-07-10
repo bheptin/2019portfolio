@@ -58,17 +58,17 @@ class App extends Component {
               <li onClick={() => this.closeMenu()}>
                 <Link to="/work">Work</Link>
               </li>
-              <li onClick={() => this.closeMenu()} className="info-email">
+              <li className="info-email">
                 <a target="_blank" rel="noopener noreferrer" href="mailto: bheptin@gmail.com?Subject=I%20have%20an%20amazing%20job%20offer%20for%20you!">
                   <i className="fa fa-envelope-square fa-2x"></i>
                 </a>
               </li>
-              <li onClick={() => this.closeMenu()} className="info-resume">
+              <li className="info-resume">
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1PLTc8eiX5N_XUMCv2i9LDLS9vi_knzhk/view?usp=sharing">
                   <i className="fa fa-file fa-2x"></i>
                 </a>
               </li>
-              <li onClick={() => this.closeMenu()} className="info-linkedIn">
+              <li className="info-linkedIn">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bheptin/">
                 <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 </a>
