@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/home.css';
+import trio from '../images/trio.png'
 
 class Home extends Component {
     render() {
@@ -13,7 +14,9 @@ class Home extends Component {
               >
                 Brian Heptinstall... a brief history
               </p>
+              
             </header>
+            <img className="TrioPic" src={trio} alt="The three of us" />
           </div>
             
         )

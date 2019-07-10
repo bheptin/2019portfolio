@@ -21,7 +21,12 @@
     color: white;
     text-decoration: none;
   
-  }
+}
+
+.TrioPic {
+  width: 30%;
+  display: none;
+}
 
 /* The typing effect */
 @keyframes typewriter {

@@ -67,20 +67,11 @@ a:hover {
    text-decoration: none;
 }
 
- .info-email, .info-resume {
+ .info-email, .info-resume, .info-linkedIn {
   animation-name: showInfo;
   animation-duration: 1.7s;  
-  animation-delay: 6s;
   animation-fill-mode: both;
   font-size: large;
-  margin-bottom: 22px;
-}
-
-.info-email {
-  margin-top: 50px;
-}
-
-.info-resume {
   margin-top: 20px;
 }
 

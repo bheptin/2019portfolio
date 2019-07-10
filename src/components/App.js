@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './App.css';
-import './css/menu.css';
-import Home from './components/Home.js';
-import About from './components/About.js';
-import Work from './components/Work.js';
-import { elastic as Menu } from 'react-burger-menu';
+import '../css/App.css';
+import '../css/menu.css';
+import Home from './Home.js';
+import About from './About.js';
+import Work from './Work.js';
+import { stack as Menu } from 'react-burger-menu';
 
 const routes = [
   {
@@ -44,8 +44,10 @@ class App extends Component {
     
     return (
         <Router>
-          <Menu isOpen={this.state.menuOpen}
-          onStateChange={(state) => this.handleStateChange(state)}>
+          <Menu width={180} 
+                isOpen={this.state.menuOpen}
+                onStateChange={(state) => this.handleStateChange(state)}
+          >
             <ul>
               <li onClick={() => this.closeMenu()}>
                 <Link to="/">Home</Link>
@@ -57,13 +59,18 @@ class App extends Component {
                 <Link to="/work">Work</Link>
               </li>
               <li onClick={() => this.closeMenu()} className="info-email">
-                <a href="mailto: bheptin@gmail.com?Subject=I%20have%20an%20amazing%20job%20offer%20for%20you!">
+                <a target="_blank" rel="noopener noreferrer" href="mailto: bheptin@gmail.com?Subject=I%20have%20an%20amazing%20job%20offer%20for%20you!">
                   <i className="fa fa-envelope-square fa-2x"></i>
                 </a>
               </li>
               <li onClick={() => this.closeMenu()} className="info-resume">
-                <a href="https://drive.google.com/open?id=1sqSFo-XKRkCfgfApz5s5DpcPM7-Mch-bp-9nu-zuEl8">
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1PLTc8eiX5N_XUMCv2i9LDLS9vi_knzhk/view?usp=sharing">
                   <i className="fa fa-file fa-2x"></i>
+                </a>
+              </li>
+              <li onClick={() => this.closeMenu()} className="info-linkedIn">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bheptin/">
+                <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
@@ -83,8 +90,6 @@ class App extends Component {
                   component={route.sidebar}
                 />
               ))}
-           
-           <a onClick={ this.showSettings } className="menu-item--small" href="#">Settings</a>
             </Menu>
             <div style={{ flex: 1 }}>
               {routes.map((route, index) => (
@@ -97,7 +102,9 @@ class App extends Component {
                   component={route.main}
                 />
               ))}
+              
             </div>
+            
     </Router>
     );
   }

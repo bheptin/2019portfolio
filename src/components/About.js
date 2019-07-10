@@ -7,7 +7,7 @@ class About extends Component {
     render () {
         return(
             <div className="About">
-                <h2 className="page-title">About</h2>
+                <h2 className="page-title">About Brian</h2>
                     <p className="openingFill">Hi, I'm Brian Heptinstall, a front-end engineer and software testing engineer. 
                        I’m based in Birmingham, Alabama, where I currently work for healthgrades.com. I also previously spent 
                        time with BBVA Compass Bank as an automated software tester. With an emphasis on HTML5, CSS3, 
@@ -28,8 +28,6 @@ class About extends Component {
                     <p className="about-footer">Check out my work here and feel free to connect with me on 
                     <a className="aboutLink" href="https://www.linkedin.com/in/bheptin/"> LinkedIn</a>. 
                     I’m also on <a className="aboutLink" href="https://twitter.com/bheptin">Twitter</a>, but I’m not much of a Tweeter.</p>
-                        
-
             </div>
         )
     }
