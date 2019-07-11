@@ -5,11 +5,12 @@
     height: 30px;
     left: 36px;
     top: 36px;
+    
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #a1a9aa;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -30,6 +31,7 @@
   /* Color/shape of close button cross */
   .bm-cross {
     background: #bdc3c7;
+    
   }
   
   /*

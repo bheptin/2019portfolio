@@ -26,6 +26,11 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
 }
 
+.About, .Work {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Left navbar */
 .nav-main {
   display: flex;
