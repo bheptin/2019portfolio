@@ -14,7 +14,8 @@
 .App-header {
   animation: typewriter 4s steps(45) 1s 1 normal both,
     blinkTextCursor 500ms steps(45) infinite normal;
-  
+    font-size: 4vw;
+    position: absolute;
 }
 
 .opening-link {
