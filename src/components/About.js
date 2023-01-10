@@ -24,7 +24,7 @@ class About extends Component {
                        include guitar and drums, loud music, poker, being outdoors, and of course, Alabama football. It's how 
                        I got my nickname, “Bama,” while living in South Florida.</p>
                        
-                      <p className="personal"> We also recently purchased a Travel Trailer and are taking full advantage of the "work from home" to take our 
+                      <p className="personal">We also recently purchased a Travel Trailer and are taking full advantage of the "work from home" to take our 
                        boys to new places, while being able to work on the go.</p>
                        
                        <img className="happyBoy-image" src={happyBoy} alt="happyBaby" />
